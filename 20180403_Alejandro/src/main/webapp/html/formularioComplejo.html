@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="Stylesheet" href="../css/formulario.css" />
+    </head>
+    <body>
+        <div>
+            <form method="post" action="../fcomplejo">
+                <fieldset>
+                    <legend>Formulario Complejo</legend>
+                    <label>Nombre</label><input type="text" name="nombre" required><br>
+                    <label>Vehiculo &nbsp;</label><label>Moto</label><input type="checkbox" name="vehiculo" value="moto"><label>Bicicleta</label><input type="checkbox" name="vehiculo" value="bicicleta"><label>Coche</label><input type="checkbox" name="vehiculo" value="Coche"><br>
+                    <label>Password</label><input type="password" name="password" required><br>
+                    <label>Comida</label>
+                    <select name="comida">
+                        <option>Macarrones</option>
+                        <option>Arroz</option>
+                        <option>Lentejas</option>
+                        <option>Jamon</option>
+                    </select><br><br><br>
+                    <label>Bebida</label>
+                    <select name="bebida" size="4">
+                        <option>Coca-Cola</option>
+                        <option>Fanta de naranja</option>
+                        <option>Fanta de limon</option>
+                        <option>Nestea</option>
+                    </select><br>
+                    <textarea rows="10" cols="20" name="texto">
+                        
+                    </textarea><br>
+                    <input type="submit" name="enviar" value="enviar">
+                    <input type="reset" name="borrar" value="borrar">
+                </fieldset>
+            </form>
+            <a href="../index.html">Inicio</a>
+        </div>
+    </body>
+</html>
