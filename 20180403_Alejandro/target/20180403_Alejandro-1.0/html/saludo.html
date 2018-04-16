@@ -11,12 +11,17 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+        <div>
         <form method="post" action="../jsp/saludo.jsp">
             <label>Nombre</label><input type="text" name="nombre">
             <label>Hombre</label><input type="radio" name="sexo" value="hombre">
             <label>Mujer</label><input type="radio" name="sexo" value="mujer">
             <input type="submit" name="enviar" value="enviar">
-            <input type="reset" name="borrar" value="borrar">
+            <input type="reset" name="borrar" value="borrar"><br>
+            <a href="../index.html">Menu principal</a>
+            
         </form>
+         
+        </div>
     </body>
 </html>

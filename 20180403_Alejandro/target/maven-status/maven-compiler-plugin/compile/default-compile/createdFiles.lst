@@ -1,6 +1,7 @@
-es\albarregas\servlets\FormularioComplejoValidado.class
 es\albarregas\servlets\FormularioSimple.class
 es\albarregas\servlets\CicloVida.class
+es\albarregas\servlets\ContadorSesion.class
 es\albarregas\servlets\FormularioComplejo.class
 es\albarregas\servlets\HolaMundo.class
 registro.class
+es\albarregas\servlets\FormularioComplejoValidado.class

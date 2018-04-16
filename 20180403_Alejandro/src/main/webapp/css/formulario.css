@@ -10,4 +10,11 @@ and open the template in the editor.
 form {
     text-align:center;
     color:blue;
+    border:solid blue 2px;
 }
+#Cuadro {
+     text-align:center;
+    color:blue;
+    border:solid blue 2px;
+}
+

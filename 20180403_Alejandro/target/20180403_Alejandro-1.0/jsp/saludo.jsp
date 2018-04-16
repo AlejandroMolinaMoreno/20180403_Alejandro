@@ -36,6 +36,6 @@ if (request.getParameter("sexo").equals("hombre")){
 <%
 }
 %>
-       
+       <a href="<%=request.getContextPath()%>">Menu principal</a>
     </body>
 </html>
